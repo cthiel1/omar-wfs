@@ -60,7 +60,7 @@ dependencyManagement {
 
 grails {
   plugins {
-    compile project('omar-core/plugins/omar-core-plugin')
+    apply ('omar-core-plugin')
     compile project(':omar-hibernate-spatial-plugin')
   }
 }
