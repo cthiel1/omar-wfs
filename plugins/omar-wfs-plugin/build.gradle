@@ -58,9 +58,10 @@ dependencyManagement {
    applyMavenExclusions false
 }
 
+apply plugin: "omar-core-plugin"
+
 grails {
   plugins {
-    apply ('omar-core-plugin')
     compile project(':omar-hibernate-spatial-plugin')
   }
 }
